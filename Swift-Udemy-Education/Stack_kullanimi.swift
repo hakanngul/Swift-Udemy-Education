@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Stack_kullanimi: View {
     var body: some View {
-        VStack(alignment: .trailing) {
+        VStack(spacing: 50) {
                 Rectangle().fill(.black).frame(width: 100, height: 100)
                 Rectangle().fill(.green).frame(width: 50, height: 50)
                 Rectangle().fill(.blue).frame(width: 30, height: 30)

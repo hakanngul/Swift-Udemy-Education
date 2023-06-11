@@ -9,12 +9,13 @@ import SwiftUI
 
 struct Stack_kullanimi: View {
     var body: some View {
-        VStack(spacing: 50) {
-                Rectangle().fill(.black).frame(width: 100, height: 100)
-                Rectangle().fill(.green).frame(width: 50, height: 50)
-                Rectangle().fill(.blue).frame(width: 30, height: 30)
-            }
-        
+        VStack{
+            Rectangle().fill(.red).frame(width: 100, height: 100)
+            Spacer().frame(width: 50,height: 100)
+            Rectangle().fill(.green).frame(width: 100, height: 100)
+            Spacer().frame(width: 40, height: 80)
+            Rectangle().fill(.blue).frame(width: 100, height: 100)
+        }
     }
 }
 

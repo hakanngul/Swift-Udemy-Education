@@ -11,7 +11,7 @@ struct Stack_kullanimi: View {
     var body: some View {
         HStack{
             Rectangle().fill(.red).frame(width: 100, height: 100)
-                .padding([.leading, .trailing],30)
+                .padding(.top, 30).padding(.bottom, 50)
             Rectangle().fill(.green).frame(width: 50, height: 50)
             Rectangle().fill(.blue).frame(width: 30, height: 30)
         }

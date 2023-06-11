@@ -9,18 +9,12 @@ import SwiftUI
 
 struct Stack_kullanimi: View {
     var body: some View {
-        ZStack {
-            Rectangle().fill(.black).frame(width: 400, height: 400)
-            VStack {
-                Rectangle().fill(.red).frame(width: 100, height: 100)
-                Rectangle().fill(.green).frame(width: 100, height: 100)
-                HStack {
-                    Rectangle().fill(.blue).frame(width: 100, height: 50)
-                    Rectangle().fill(.yellow).frame(width: 100, height: 50)
-                   
-                }
+        VStack(alignment: .trailing) {
+                Rectangle().fill(.black).frame(width: 100, height: 100)
+                Rectangle().fill(.green).frame(width: 50, height: 50)
+                Rectangle().fill(.blue).frame(width: 30, height: 30)
             }
-        }
+        
     }
 }
 

@@ -11,6 +11,7 @@
 		AE1DB54E2A36679E00159E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1DB54D2A36679E00159E68 /* ContentView.swift */; };
 		AE1DB5502A3667A000159E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB54F2A3667A000159E68 /* Assets.xcassets */; };
 		AE1DB5532A3667A000159E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB5522A3667A000159E68 /* Preview Assets.xcassets */; };
+		AE1DB55A2A3667E700159E68 /* Stack_kullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1DB5592A3667E700159E68 /* Stack_kullanimi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AE1DB54D2A36679E00159E68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE1DB54F2A3667A000159E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE1DB5522A3667A000159E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE1DB5592A3667E700159E68 /* Stack_kullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_kullanimi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AE1DB54B2A36679E00159E68 /* Swift_Udemy_EducationApp.swift */,
 				AE1DB54D2A36679E00159E68 /* ContentView.swift */,
+				AE1DB5592A3667E700159E68 /* Stack_kullanimi.swift */,
 				AE1DB54F2A3667A000159E68 /* Assets.xcassets */,
 				AE1DB5512A3667A000159E68 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1DB55A2A3667E700159E68 /* Stack_kullanimi.swift in Sources */,
 				AE1DB54E2A36679E00159E68 /* ContentView.swift in Sources */,
 				AE1DB54C2A36679E00159E68 /* Swift_Udemy_EducationApp.swift in Sources */,
 			);

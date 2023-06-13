@@ -11,7 +11,7 @@ import SwiftUI
 struct Swift_Udemy_EducationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            YemekTarifSayfa()
         }
     }
 }

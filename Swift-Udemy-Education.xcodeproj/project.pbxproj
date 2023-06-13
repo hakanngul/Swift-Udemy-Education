@@ -12,6 +12,9 @@
 		AE1DB5502A3667A000159E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB54F2A3667A000159E68 /* Assets.xcassets */; };
 		AE1DB5532A3667A000159E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB5522A3667A000159E68 /* Preview Assets.xcassets */; };
 		AE1DB55A2A3667E700159E68 /* Stack_kullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1DB5592A3667E700159E68 /* Stack_kullanimi.swift */; };
+		AEFEB60E2A37DEE500359940 /* ExampleDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB60D2A37DEE500359940 /* ExampleDesign.swift */; };
+		AEFEB6102A37E07F00359940 /* LoginPageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB60F2A37E07F00359940 /* LoginPageExample.swift */; };
+		AEFEB6122A37E53E00359940 /* YemekTarifSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6112A37E53E00359940 /* YemekTarifSayfa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		AE1DB54F2A3667A000159E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE1DB5522A3667A000159E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE1DB5592A3667E700159E68 /* Stack_kullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_kullanimi.swift; sourceTree = "<group>"; };
+		AEFEB60D2A37DEE500359940 /* ExampleDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDesign.swift; sourceTree = "<group>"; };
+		AEFEB60F2A37E07F00359940 /* LoginPageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageExample.swift; sourceTree = "<group>"; };
+		AEFEB6112A37E53E00359940 /* YemekTarifSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTarifSayfa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +61,12 @@
 			children = (
 				AE1DB54B2A36679E00159E68 /* Swift_Udemy_EducationApp.swift */,
 				AE1DB54D2A36679E00159E68 /* ContentView.swift */,
+				AEFEB60D2A37DEE500359940 /* ExampleDesign.swift */,
 				AE1DB5592A3667E700159E68 /* Stack_kullanimi.swift */,
+				AEFEB60F2A37E07F00359940 /* LoginPageExample.swift */,
 				AE1DB54F2A3667A000159E68 /* Assets.xcassets */,
 				AE1DB5512A3667A000159E68 /* Preview Content */,
+				AEFEB6112A37E53E00359940 /* YemekTarifSayfa.swift */,
 			);
 			path = "Swift-Udemy-Education";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE1DB55A2A3667E700159E68 /* Stack_kullanimi.swift in Sources */,
+				AEFEB60E2A37DEE500359940 /* ExampleDesign.swift in Sources */,
+				AEFEB6102A37E07F00359940 /* LoginPageExample.swift in Sources */,
+				AEFEB6122A37E53E00359940 /* YemekTarifSayfa.swift in Sources */,
 				AE1DB54E2A36679E00159E68 /* ContentView.swift in Sources */,
 				AE1DB54C2A36679E00159E68 /* Swift_Udemy_EducationApp.swift in Sources */,
 			);
